@@ -2,7 +2,7 @@ package list.opecaobasica;
 
 public class Tarefa {
     //atributo
-    private String descricao;
+    private final String descricao;
 
     public Tarefa(String descricao) {
         this.descricao = descricao;
